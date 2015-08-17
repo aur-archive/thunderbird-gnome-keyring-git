@@ -1,0 +1,18 @@
+pkgbase = thunderbird-gnome-keyring-git
+	pkgdesc = Thunderbird GNOME Keyring integration
+	pkgver = 0.4.r15.f042383
+	pkgrel = 1
+	url = https://github.com/swick/moz-gnome-keyring-integration
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = thunderbird
+	depends = libgnome-keyring
+	provides = thunderbird-gnome-keyring
+	conflicts = thunderbird-gnome-keyring
+	options = !strip
+	source = git+https://github.com/swick/moz-gnome-keyring-integration
+	md5sums = SKIP
+
+pkgname = thunderbird-gnome-keyring-git
+
